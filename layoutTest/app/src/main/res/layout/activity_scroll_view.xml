@@ -18,14 +18,16 @@
         android:orientation="horizontal"
         >
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:src="@mipmap/xx"
             />
         <TextView
             android:text="这是大段的测试文字，用于描述"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            />
 
     </LinearLayout>
 

@@ -24,6 +24,10 @@ public class ScrollViewActivity extends AppCompatActivity {
         TextView t = new TextView(this);
         t.setText("这是新加入的大文字");
 
+        llaySub.addView(i);
+        llaySub.addView(t);
+        llayout.addView(llaySub);
+
 
 
     }
